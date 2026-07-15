@@ -1,0 +1,10 @@
+{
+  "name": "asap-invoicing",
+  "description": "Playbooks for driving the ASAP MCP server (French invoicing, e-signature) — FR compliance and NF203 sealing.",
+  "version": "0.1.0",
+  "author": {
+    "name": "ASAP"
+  },
+  "homepage": "https://github.com/Sycatle/asap-agent-skills",
+  "keywords": ["asap", "mcp", "invoicing", "facturation", "e-signature"]
+}
