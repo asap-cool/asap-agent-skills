@@ -1,0 +1,20 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      # Regenerate the client files and fail if anything drifts from playbook/
+      # or if a playbook references a tool/prompt absent from catalogue.json.
+      - run: npm test
+      - name: Fail if build produced uncommitted changes
+        run: git diff --exit-code

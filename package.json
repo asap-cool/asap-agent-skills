@@ -1,0 +1,13 @@
+{
+  "name": "asap-agent-skills",
+  "version": "0.1.0",
+  "description": "Playbooks and client skills that teach AI agents to drive the ASAP MCP server correctly (French invoicing, e-signature).",
+  "license": "MIT",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check-drift.mjs",
+    "test": "node scripts/build.mjs && node scripts/check-drift.mjs"
+  }
+}
