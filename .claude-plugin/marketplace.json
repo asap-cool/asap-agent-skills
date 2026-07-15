@@ -1,0 +1,21 @@
+{
+  "name": "asap-cool",
+  "owner": {
+    "name": "ASAP",
+    "url": "https://asap.cool"
+  },
+  "plugins": [
+    {
+      "name": "asap-invoicing",
+      "source": "./claude",
+      "description": "Playbooks that teach an agent to drive ASAP (French invoicing, e-signature) through its MCP server: grounding, FR compliance (operation_nature, cents), and NF203 sealing.",
+      "version": "0.1.0",
+      "author": {
+        "name": "ASAP"
+      },
+      "homepage": "https://github.com/asap-cool/asap-agent-skills",
+      "category": "productivity",
+      "keywords": ["asap", "mcp", "invoicing", "facturation", "e-signature", "france"]
+    }
+  ]
+}

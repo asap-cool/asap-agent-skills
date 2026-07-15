@@ -29,8 +29,16 @@ Never hand-edit them — edit the playbook and run `npm run build`.
 First connect the ASAP MCP server (an ASAP API key with the `contacts` / `invoice` /
 `signature` scopes). Then, per client:
 
-- **Claude Code / Desktop** — install this repo as a plugin (it ships
-  `claude/.claude-plugin/plugin.json` + the `asap-invoicing` skill).
+- **Claude Code** — this repo *is* a plugin marketplace. Install in one command:
+
+  ```
+  /plugin marketplace add asap-cool/asap-agent-skills
+  /plugin install asap-invoicing@asap-cool
+  ```
+
+- **Claude Desktop / claude.ai** — download `asap-invoicing-skill.zip` from the
+  [latest release](https://github.com/asap-cool/asap-agent-skills/releases/latest) and
+  upload it under *Settings → Capabilities → Skills*.
 - **ChatGPT** — paste `chatgpt/instructions.md` into a custom GPT's *Instructions* and
   add `https://mcp.asap.cool` as an Action/connector.
 - **Cursor** — copy `cursor/asap.mdc` into your project's `.cursor/rules/`.
