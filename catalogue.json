@@ -1,0 +1,310 @@
+{
+  "version": "1.2.0",
+  "tools": [
+    {
+      "name": "get_org_context",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "list_contacts",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "get_contact",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "find_duplicate_contacts",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "create_contact",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "update_contact",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "merge_contacts",
+      "read_only": false,
+      "destructive": true
+    },
+    {
+      "name": "delete_contact",
+      "read_only": false,
+      "destructive": true
+    },
+    {
+      "name": "restore_contact",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "list_invoices",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "get_invoice",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "invoice_stats",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "create_quote",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "create_invoice",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "finalize_invoice",
+      "read_only": false,
+      "destructive": true
+    },
+    {
+      "name": "send_invoice",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "convert_quote_to_invoice",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "create_credit_note",
+      "read_only": false,
+      "destructive": true
+    },
+    {
+      "name": "create_deposit",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "record_payment",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "list_payments",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "list_reminders",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "schedule_reminders",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "list_products",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "create_product",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "list_recurring_invoices",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "create_recurring_invoice",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "activate_recurring_invoice",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "pause_recurring_invoice",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "run_recurring_invoice",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "get_product",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "update_product",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "delete_product",
+      "read_only": false,
+      "destructive": true
+    },
+    {
+      "name": "get_recurring_invoice",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "update_recurring_invoice",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "delete_recurring_invoice",
+      "read_only": false,
+      "destructive": true
+    },
+    {
+      "name": "update_invoice",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "delete_invoice",
+      "read_only": false,
+      "destructive": true
+    },
+    {
+      "name": "accept_quote",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "reject_quote",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "cancel_document",
+      "read_only": false,
+      "destructive": true
+    },
+    {
+      "name": "duplicate_document",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "get_invoice_pdf",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "get_monthly_revenue",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "get_revenue_by_period",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "get_client_revenue",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "get_client_documents_summary",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "get_quote_to_invoice_flow",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "list_envelopes",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "get_envelope",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "create_envelope",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "update_envelope",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "get_signed_document",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "get_envelope_document",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "get_signature_proof",
+      "read_only": true,
+      "destructive": false
+    },
+    {
+      "name": "send_envelope",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "remind_envelope",
+      "read_only": false,
+      "destructive": false
+    },
+    {
+      "name": "cancel_envelope",
+      "read_only": false,
+      "destructive": true
+    }
+  ],
+  "prompts": [
+    "quote-to-sent",
+    "quote-lifecycle",
+    "deposit-from-quote",
+    "correct-document",
+    "analyze-pdf",
+    "manage-recurring",
+    "monthly-recurring-run"
+  ],
+  "resources": [
+    "asap://org/context",
+    "asap://org/profile",
+    "asap://invoice/settings",
+    "asap://catalogue"
+  ]
+}
