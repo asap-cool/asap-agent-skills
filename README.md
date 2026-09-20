@@ -69,3 +69,7 @@ npm run check
 ## License
 
 MIT — see [LICENSE](./LICENSE).
+
+---
+
+Built by [Sycode](https://sycode.fr) — freelance SaaS developer.
